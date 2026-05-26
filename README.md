@@ -1,3 +1,4 @@
+
 # Expense Tracker – SwiftUI 📊
 
 A simple and clean **Expense Tracker iOS application** built using **SwiftUI**.  
@@ -30,9 +31,13 @@ This app helps users track daily expenses, categorize them, and view monthly sum
 
 ## 📸 Screenshots
 
-<img width="400" height="870" alt="Simulator Screenshot - Clone 1 of iPhone 17 Pro - 2026-03-12 at 18 36 03" src="https://github.com/user-attachments/assets/3f565d00-e372-49a9-ab97-99fcf66bc841" />
-<img width="400" height="870" alt="Simulator Screenshot - Clone 1 of iPhone 17 Pro - 2026-03-12 at 18 31 32" src="https://github.com/user-attachments/assets/38ea5849-9978-44c8-b3af-20ed53066e79" />
-<img width="400" height="870" alt="Simulator Screenshot - Clone 1 of iPhone 17 Pro - 2026-03-12 at 18 31 38" src="https://github.com/user-attachments/assets/12b75053-f654-4a3b-81bc-db0fc9dedfd8" />
+<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-05-26 at 18 49 21" src="https://github.com/user-attachments/assets/a4e37d46-52a7-4b24-81e3-f207515e3095" />
+
+<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-05-26 at 18 49 26" src="https://github.com/user-attachments/assets/59305ef2-8b92-4c55-af29-06bad793708b" />
+
+<img width="1320" height="2868" alt="Simulator Screenshot - iPhone 17 Pro Max - 2026-05-26 at 18 49 30" src="https://github.com/user-attachments/assets/3c819ba6-3c21-4c7f-8be1-1aa74e496db6" />
+
+
 
 
 ---
