@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1107B2E02F6848AB00BD55B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1107B2DF2F6848AB00BD55B0 /* GoogleService-Info.plist */; };
+		1107B2E32F684B1900BD55B0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1107B2E22F684B1900BD55B0 /* FirebaseAuth */; };
+		1107B2E52F684B1900BD55B0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1107B2E42F684B1900BD55B0 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		116418F02F62B20500E73684 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -17,6 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1107B2DF2F6848AB00BD55B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		110C32BC2F613C6A00EDDCD8 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116418EC2F62B20500E73684 /* ExpenseTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -39,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1107B2E32F684B1900BD55B0 /* FirebaseAuth in Frameworks */,
+				1107B2E52F684B1900BD55B0 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +64,7 @@
 		110C32B32F613C6A00EDDCD8 = {
 			isa = PBXGroup;
 			children = (
+				1107B2DF2F6848AB00BD55B0 /* GoogleService-Info.plist */,
 				110C32BE2F613C6A00EDDCD8 /* ExpenseTracker */,
 				116418ED2F62B20500E73684 /* ExpenseTrackerTests */,
 				110C32BD2F613C6A00EDDCD8 /* Products */,
@@ -90,6 +100,8 @@
 			);
 			name = ExpenseTracker;
 			packageProductDependencies = (
+				1107B2E22F684B1900BD55B0 /* FirebaseAuth */,
+				1107B2E42F684B1900BD55B0 /* FirebaseFirestore */,
 			);
 			productName = ExpenseTracker;
 			productReference = 110C32BC2F613C6A00EDDCD8 /* ExpenseTracker.app */;
@@ -146,6 +158,9 @@
 			);
 			mainGroup = 110C32B32F613C6A00EDDCD8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1107B2E12F684B1900BD55B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 110C32BD2F613C6A00EDDCD8 /* Products */;
 			projectDirPath = "";
@@ -162,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1107B2E02F6848AB00BD55B0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +468,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1107B2E12F684B1900BD55B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1107B2E22F684B1900BD55B0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1107B2E12F684B1900BD55B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1107B2E42F684B1900BD55B0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1107B2E12F684B1900BD55B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 110C32B42F613C6A00EDDCD8 /* Project object */;
 }
